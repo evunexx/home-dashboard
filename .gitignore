@@ -1,0 +1,4 @@
+*.pyc
+dashboard-env
+__pycache__
+.vscode
