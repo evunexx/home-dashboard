@@ -7,12 +7,151 @@
 .root {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(+35deg, #314566 0%, #04befe 100%);
+    background-image: linear-gradient(+35deg, #1e263b 0%, #50587c 100%);
     display: grid;
     grid-template-columns: 25% 25% 50%;
-    grid-template-rows: auto;
+    grid-template-rows: 10% 10% 10% 10% 10% auto ;
     grid-template-areas:
       "header header header header"
-      "main main . sidebar"
-      "footer footer footer footer";
+      "bin bin weather weather"
+      "temp temp weather weather"
+      "light light weather weather"
+      "spotify spotify weather weather"
+      ". . weather weather"
+      ". . forecast forecast";
+    font-family: 'Montserrat', sans-serif;
   }
+
+.header {
+      grid-area: header;
+      background-color: #50587c;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 300%;
+      color: white;
+      font-weight: 800;
+
+}
+
+.header-container {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+}
+.absalutation {
+    display: flex;
+    flex-grow: 4;
+    margin-right: 3%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.date {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.time {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.weather {
+    grid-area: weather;
+    background-color: #50587c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.forecast {
+    grid-area: forecast;
+    background-color: #50587c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.bin {
+    grid-area: bin;
+    background-color: rgb(53, 103, 179);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+    color: white;
+    font-weight: 800;
+
+}
+
+.temp {
+    grid-area: temp;
+    background-color: rgb(53, 103, 179);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+    color: white;
+    font-weight: 800;
+
+}
+
+.light {
+    grid-area: light;
+    color: azure;
+    background-color: rgb(53, 103, 179);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+    color: white;
+    font-weight: 800;
+
+}
+
+.spotify {
+    grid-area: spotify;
+    color: azure;
+    background-color: rgb(53, 103, 179);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+    color: white;
+    font-weight: 800;
+
+}
+
