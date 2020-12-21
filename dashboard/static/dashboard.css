@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    font-size: 100%;
   }
 .root {
     height: 100vh;
@@ -10,12 +11,11 @@
     background-image: linear-gradient(+35deg, #1e263b 0%, #50587c 100%);
     display: grid;
     grid-template-columns: 25% 25% 50%;
-    grid-template-rows: auto auto auto auto auto auto ;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas:
-      "header header weather weather"
-      "header header weather weather"
-      "temp temp weather weather"
+      "sunset-sunrise header weather weather"
       "foo foo weather weather"
+      "temp temp weather weather"
       "light light forecast forecast"
       "spotify spotify forecast forecast";
     font-family: 'Montserrat', sans-serif;
@@ -30,6 +30,27 @@
       margin-left: 10px;
       color: white;
 }
+
+.sunset-sunrise {
+    grid-area: sunset-sunrise;
+    background-color: #50587c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.sunset-sunrise-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
 
 .header-container {
     display:flex;
@@ -94,7 +115,49 @@
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
+}
 
+.foo-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.bin-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.bin-2 {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#bin-date-1 {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 800;
+    color: white;
+}
+
+#bin-logo-1 {
+    color: blue;
+    margin-right: 3px;
+}
+
+#bin-date-2 {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 800;
+    color: white;
+}
+
+#bin-logo-2 {
+    color: yellow;
+    margin-right: 3px;
 }
 
 .temp {
