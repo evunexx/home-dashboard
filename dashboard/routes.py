@@ -100,6 +100,61 @@ def bin():
     return summary_json
 
 
+@app.route("/data/weather/current")
+def weather():
+
+    url = (
+        "http://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&units=metric&lang=de&appid=%s"
+        % (app.config["Latitude"], app.config["Longitude"], app.config["APIKEY"])
+    )
+
+    response = requests.get(url)
+    data = response.json()
+
+    temperature = str(int(data["current"]["temp"]))
+    weather = str(data["current"]["weather"][0]["description"])
+    icon = str(data["current"]["weather"][0]["icon"])
+
+    summary = {}
+
+    summary["temperature"] = temperature
+    summary["weather"] = weather
+    summary["icon"] = icon
+
+    summary_json = jsonify(summary)
+    return summary_json
+
+
+@app.route("/data/weather/forecast")
+def forecast():
+    url = (
+        "http://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&units=metric&lang=de&appid=%s"
+        % (app.config["Latitude"], app.config["Longitude"], app.config["APIKEY"])
+    )
+
+    response = requests.get(url)
+    data = response.json()
+
+    summary = []
+
+    day1 = {}
+    day2 = {}
+    day3 = {}
+
+    summary.append(day1)
+    summary.append(day2)
+    summary.append(day3)
+
+    for iteration, days in enumerate(summary):
+        days["temp"] = str(int(data["daily"][iteration + 1]["temp"]["day"]))
+        days["weather"] = str(data["daily"][iteration + 1]["weather"][0]["description"])
+        days["icon"] = str(data["daily"][iteration + 1]["weather"][0]["icon"])
+
+    summary_json = jsonify(summary)
+
+    return summary_json
+
+
 def convert_ics_to_csv(ics_data):
     csv = open("temp.csv", "wb")
     csv.close()
