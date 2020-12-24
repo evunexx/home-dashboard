@@ -1,93 +1,111 @@
-
 <html>
-  <head>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'dashboard.css') }}" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div class="root">
-      <div class="sunset-sunrise">
-        <div class="sunset-sunrise-container">
-          <div id="sunrise"></div>
-          <div id="sunset"></div>
+
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'dashboard.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'Rimouski.css') }}" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="root">
+    <div class="sunset-sunrise">
+      <div class="sunset-sunrise-container">
+        <div id="sunrise"></div>
+        <div id="sunset"></div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="header-container">
+        <div class="clock">
+          <div id="date"></div>
+          <div id="time"></div>
         </div>
       </div>
-      <div class="header">
-        <div class="header-container">
-          <div class="clock">
-            <div id="date"></div>
-            <div id="time"></div>
+    </div>
+    <div class="weather">
+      <div class="weather-container">
+        <div class="title">
+          <p>Wetter</p>
+        </div>
+        <div class="weather-icon">
+          <img id="wicon" src="icons/unknown.png" alt="Weather icon">
+        </div>
+        <div class="temperature-description">
+          <p>-</p>
+        </div>
+        <div class="temperature-value">
+          <p>o<span>C</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="forecast">
+      <div class="forecast-container">
+      </div>
+    </div>
+    <div class="foo">
+      <div class="foo-container">
+        <div class="bin-1">
+          <div id="bin-logo-1">
+            <i class="far fa-trash-alt fa-3x"></i>
+          </div>
+          <div id="bin-date-1">
+            20.12
           </div>
         </div>
-      </div>
-      <div class="weather">
-        <div class="weather-container">
-        </div>
-      </div>
-      <div class="forecast">
-        <div class="forecast-container">
-        </div>
-      </div>
-      <div class="foo">
-        <div class="foo-container">
-          <div class="bin-1">
-            <div id="bin-logo-1">
-              <i class="far fa-trash-alt fa-3x"></i>
-            </div>
-            <div id="bin-date-1">
-              20.12
-            </div>
+        <div class="bin-2">
+          <div id="bin-logo-2">
+            <i class="far fa-trash-alt fa-3x"></i>
           </div>
-          <div class="bin-2">
-            <div id="bin-logo-2">
-              <i class="far fa-trash-alt fa-3x"></i>
-            </div>
-            <div id="bin-date-2">
-              20.12
-            </div>
+          <div id="bin-date-2">
+            20.12
           </div>
-          <!--<details>
+        </div>
+        <!--<details>
             <summary>
           </summary>
             <p></p>
           </details>-->
-        </div>
-      </div>
-      <div class="temp">
-        <div class="temp-container">
-          <details>
-            <summary></summary>
-            <p></p>
-          </details>
-        </div>
-      </div>
-      <div class="light">
-        <div class="light-container">
-          <details>
-            <summary></summary>
-            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-          </details>
-        </div>
-      </div>
-      <div class="spotify">
-        <div class="spotify-container">
-          <details>
-            <summary></summary>
-            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-          </details>
-        </div>
       </div>
     </div>
-    <script src="{{ url_for('static', filename = 'clock.js') }}"></script>
-    <script src="{{ url_for('static', filename = 'sunrise.js') }}"></script>
-  </body>
-  </html>
+    <div class="temp">
+      <div class="temp-container">
+        <details>
+          <summary></summary>
+          <p></p>
+        </details>
+      </div>
+    </div>
+    <div class="light">
+      <div class="light-container">
+        <details>
+          <summary></summary>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+        </details>
+      </div>
+    </div>
+    <div class="spotify">
+      <div class="spotify-container">
+        <details>
+          <summary></summary>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename = 'clock.js') }}"></script>
+  <script src="{{ url_for('static', filename = 'sunrise.js') }}"></script>
+  <script src="{{ url_for('static', filename = 'weather.js') }}"></script>
+</body>
+
+</html>
