@@ -8,6 +8,7 @@ import csv
 import re
 import json
 import os
+import sqlite3
 
 # Config files this has to be excluded
 
@@ -155,6 +156,63 @@ def forecast():
     return summary_json
 
 
+@app.route("/data/temperature/current")
+def current_temperature():
+    """
+    get current temperature
+    sensor_id = 1 (Außen)
+    sensor_id = 2 (Innen)
+    """
+    now = datetime.datetime.now()
+    current_hour = now.hour
+
+    summary = {}
+
+    database = "db.db"
+    outside_sql = """
+        SELECT 
+          temperature
+        FROM
+          entrys
+        WHERE
+          hour = %d
+        AND
+          sensor_id = 1
+        """ % (
+        current_hour
+    )
+
+    inside_sql = """
+        SELECT 
+          temperature
+        FROM
+          entrys
+        WHERE
+          hour = %d
+        AND
+          sensor_id = 2
+        """ % (
+        current_hour
+    )
+
+    conn = create_connection(database)
+    with conn:
+        cursor = conn.cursor()
+        count = cursor.execute(outside_sql)
+        outside_raw = cursor.fetchall()
+
+        cursor.execute(inside_sql)
+        inside_raw = cursor.fetchall()
+        cursor.close()
+
+    summary["outside"] = outside_raw[0][0]
+    summary["inside"] = inside_raw[0][0]
+
+    summary_json = jsonify(summary)
+
+    return summary_json
+
+
 def convert_ics_to_csv(ics_data):
     csv = open("temp.csv", "wb")
     csv.close()
@@ -191,3 +249,13 @@ def next_closest_date(list):
     next_closest_date = min(future_dates, default=None)
 
     return next_closest_date
+
+
+def create_connection(db_file):
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+    except sqlite3.Error as e:
+        print(e)
+
+    return conn
