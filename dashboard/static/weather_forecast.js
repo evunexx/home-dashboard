@@ -25,7 +25,7 @@ function weather_forecast() {
                 $(".forecast-" + sindex + " #max-temperature-value-forecast").html("Max: " + maxtemp + " C°");
                 $(".forecast-" + sindex + " #temperature-description-forecast").html(desc);
 
-                var iconurl = "static/icons/" + icon + ".png";
+                var iconurl = "/static/svg-icons/" + icon + ".svg";
                 $(".forecast-" + sindex + " #wicon-forecast").attr('src', iconurl);
             });
         }

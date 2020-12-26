@@ -13,7 +13,7 @@ function weather() {
             var temp = data.temperature;
             var desc = data.weather;
 
-            var iconurl = "static/icons/" + iconcode + ".png";
+            var iconurl = "/static/svg-icons/" + iconcode + ".svg";
             $('#wicon').attr('src', iconurl);
             $(".temperature-value").html(temp + " C°");
             $('.temperature-description').html(desc)

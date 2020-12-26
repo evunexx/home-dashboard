@@ -21,13 +21,13 @@
       <div class="sunset-sunrise-container">
         <div class="sunrise">
           <div id="logo">
-            <img id="sunicon" src="/static/svg-icons/sunny.svg" alt="sun icon">
+            <img id="sunicon" src="/static/svg-icons/01d.svg" alt="sun icon">
           </div>
           <div id="timestamp">13:13</div>
         </div>
         <div class="sunset">
           <div id="logo">
-            <img id="sunicon" src="/static/svg-icons/nt_clear.svg" alt="sun icon">
+            <img id="sunicon" src="/static/svg-icons/01n.svg" alt="sun icon">
           </div>
           <div id="timestamp">15:15</div>
         </div>
@@ -43,9 +43,6 @@
     </div>
     <div class="weather">
       <div class="weather-container">
-        <div class="title">
-          <p>Wetter</p>
-        </div>
         <div class="weather-icon">
           <img id="wicon" src="icons/unknown.png" alt="Weather icon">
         </div>
@@ -91,19 +88,35 @@
     </div>
     <div class="foo">
       <div class="foo-container">
-        <div class="foo-1">
-          <div id="bin-logo-1">
-            <i class="far fa-trash-alt fa-3x"></i>
+        <div class="foo-blue">
+          <div id="foo-logo">
+            <i class="far fa-trash-alt fa-5x"></i>
           </div>
-          <div id="bin-date-1">
+          <div id="foo-date">
             20.12
           </div>
         </div>
-        <div class="bin-2">
-          <div id="bin-logo-2">
-            <i class="far fa-trash-alt fa-3x"></i>
+        <div class="foo-green">
+          <div id="foo-logo">
+            <i class="far fa-trash-alt fa-5x"></i>
           </div>
-          <div id="bin-date-2">
+          <div id="foo-date">
+            20.12
+          </div>
+        </div>
+        <div class="foo-grey">
+          <div id="foo-logo">
+            <i class="far fa-trash-alt fa-5x"></i>
+          </div>
+          <div id="foo-date">
+            20.12
+          </div>
+        </div>
+        <div class="foo-yellow">
+          <div id="foo-logo">
+            <i class="far fa-trash-alt fa-5x"></i>
+          </div>
+          <div id="foo-date">
             20.12
           </div>
         </div>
@@ -145,6 +158,7 @@
   <script src="{{ url_for('static', filename = 'sunrise.js') }}"></script>
   <script src="{{ url_for('static', filename = 'weather.js') }}"></script>
   <script src="{{ url_for('static', filename = 'weather_forecast.js') }}"></script>
+  <script src="{{ url_for('static', filename = 'bin.js') }}"></script>
 </body>
 
 </html>

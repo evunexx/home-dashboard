@@ -10,7 +10,8 @@
 .root {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(+35deg, #1e263b 0%, #50587c 100%);
+    /*background-image: linear-gradient(+35deg, #1e263b 30%, #272a3a 100%);*/
+    background-color: #272a3a;
     display: grid;
     grid-template-columns: 20% 30% 50%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -20,7 +21,7 @@
 
 .header {
     grid-area: header;
-    background-color: #50587c;
+    background-color: #1b1e2d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -30,7 +31,7 @@
 
 .sunset-sunrise {
     grid-area: sunset-sunrise;
-    background-color: #50587c;
+    background-color: #1b1e2d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -117,21 +118,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     height: 100%;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: xx-large;
 }
 
 .weather-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
+    height: auto;
 }
 
 #wicon {
@@ -223,9 +220,54 @@
     font-size: medium;
 }
 
+.foo-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.foo-blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: blue;
+}
+
+.foo-green {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: green;
+}
+
+.foo-grey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.foo-yellow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: yellow;
+}
+
+#foo-date {
+    color: white;
+    font-size: x-large;
+}
+
 .weather {
     grid-area: weather;
-    background-color: #50587c;
+    background-color: #1b1e2d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -235,7 +277,7 @@
 
 .forecast {
     grid-area: forecast;
-    background-color: #50587c;
+    background-color: #1b1e2d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -246,61 +288,17 @@
 
 .foo {
     grid-area: foo;
-    background-color: #50587c;
+    background-color: #1b1e2d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.foo-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-}
-
-.bin-1 {
-    display: flex;
-    align-items: center;
-    margin-left: 10%;
-}
-
-.bin-2 {
-    display: flex;
-    align-items: center;
-    margin-right: 10%;
-}
-
-#bin-date-1 {
-    text-decoration: none;
-    font-size: 200%;
-    font-weight: 800;
-    color: white;
-}
-
-#bin-logo-1 {
-    color: blue;
-    margin-right: 3px;
-}
-
-#bin-date-2 {
-    text-decoration: none;
-    font-size: 200%;
-    font-weight: 800;
-    color: white;
-}
-
-#bin-logo-2 {
-    color: yellow;
-    margin-right: 3px;
-}
-
 .temp {
     grid-area: temp;
-    background-color: #50587c;
-    /**box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    **/
+    background-color: #1b1e2d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
@@ -308,7 +306,7 @@
 
 .light {
     grid-area: light;
-    background-color: #50587c;
+    background-color: #1b1e2d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -317,7 +315,7 @@
 
 .spotify {
     grid-area: spotify;
-    background-color: #50587c;
+    background-color: #1b1e2d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;

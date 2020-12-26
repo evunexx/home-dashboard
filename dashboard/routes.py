@@ -85,17 +85,10 @@ def bin():
     date_yellow = next_closest_date(yellow)
     date_grey = next_closest_date(grey)
 
-    if date_green:
-        summary["green"] = date_green
-
-    if date_blue:
-        summary["blue"] = date_blue
-
-    if date_yellow:
-        summary["yellow"] = date_yellow
-
-    if date_grey:
-        summary["grey"] = date_grey
+    summary["green"] = date_green if date_green else "/"
+    summary["blue"] = date_blue if date_blue else "/"
+    summary["yellow"] = date_yellow if date_yellow else "/"
+    summary["grey"] = date_grey if date_grey else "/"
 
     summary_json = jsonify(summary)
 
@@ -249,9 +242,16 @@ def next_closest_date(list):
         if date >= today:
             future_dates.append(date)
 
-    next_closest_date = min(future_dates, default=None)
+    next_closest_date_raw = min(future_dates, default=None)
 
-    return next_closest_date
+    # format from dateobject to string
+    if next_closest_date_raw:
+        month = str(next_closest_date_raw.month)
+        day = str(next_closest_date_raw.day)
+        next_closest_date = day + "." + month
+        return next_closest_date
+
+    return next_closest_date_raw
 
 
 def create_connection(db_file):
