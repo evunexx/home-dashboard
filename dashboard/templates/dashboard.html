@@ -19,8 +19,18 @@
   <div class="root">
     <div class="sunset-sunrise">
       <div class="sunset-sunrise-container">
-        <div id="sunrise"></div>
-        <div id="sunset"></div>
+        <div class="sunrise">
+          <div id="logo">
+            <img id="sunicon" src="/static/svg-icons/sunny.svg" alt="sun icon">
+          </div>
+          <div id="timestamp">13:13</div>
+        </div>
+        <div class="sunset">
+          <div id="logo">
+            <img id="sunicon" src="/static/svg-icons/nt_clear.svg" alt="sun icon">
+          </div>
+          <div id="timestamp">15:15</div>
+        </div>
       </div>
     </div>
     <div class="header">
@@ -49,11 +59,39 @@
     </div>
     <div class="forecast">
       <div class="forecast-container">
+        <div class="forecast-0">
+          <div id="day">123</div>
+          <div id=wiconbox-forecast>
+            <img id="wicon-forecast" src="icons/unknown.png" alt="Weather icon">
+          </div>
+          <div id="min-temperature-value-forecast"></div>
+          <div id="max-temperature-value-forecast"></div>
+          <div id="temperature-description-forecast"></div>
+
+        </div>
+        <div class="forecast-1">
+          <div id="day"></div>
+          <div id=wiconbox-forecast>
+            <img id="wicon-forecast" src="icons/unknown.png" alt="Weather icon">
+          </div>
+          <div id="min-temperature-value-forecast"></div>
+          <div id="max-temperature-value-forecast"></div>
+          <div id="temperature-description-forecast"></div>
+        </div>
+        <div class="forecast-2">
+          <div id="day"></div>
+          <div id=wiconbox-forecast>
+            <img id="wicon-forecast" src="icons/unknown.png" alt="Weather icon">
+          </div>
+          <div id="min-temperature-value-forecast"></div>
+          <div id="max-temperature-value-forecast"></div>
+          <div id="temperature-description-forecast"></div>
+        </div>
       </div>
     </div>
     <div class="foo">
       <div class="foo-container">
-        <div class="bin-1">
+        <div class="foo-1">
           <div id="bin-logo-1">
             <i class="far fa-trash-alt fa-3x"></i>
           </div>
@@ -106,6 +144,7 @@
   <script src="{{ url_for('static', filename = 'clock.js') }}"></script>
   <script src="{{ url_for('static', filename = 'sunrise.js') }}"></script>
   <script src="{{ url_for('static', filename = 'weather.js') }}"></script>
+  <script src="{{ url_for('static', filename = 'weather_forecast.js') }}"></script>
 </body>
 
 </html>

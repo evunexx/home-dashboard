@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow: hidden;
     font-size: 100%;
+    font-family: "Rimouski";
 }
 
 .root {
@@ -11,7 +12,7 @@
     width: 100%;
     background-image: linear-gradient(+35deg, #1e263b 0%, #50587c 100%);
     display: grid;
-    grid-template-columns: 25% 25% 50%;
+    grid-template-columns: 20% 30% 50%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas: "sunset-sunrise header weather weather" "foo foo weather weather" "temp temp weather weather" "light light forecast forecast" "spotify spotify forecast forecast";
     font-family: 'Montserrat', sans-serif;
@@ -38,11 +39,48 @@
 }
 
 .sunset-sunrise-container {
+    font-family: "Rimouski";
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     height: 100%;
+}
+
+.sunrise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: xx-large;
+    width: 100%;
+    height: 100%;
+}
+
+.sunset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: xx-large;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    width: 30%;
+    height: 100%;
+}
+
+#timestamp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-right: 30%;
 }
 
 .header-container {
@@ -57,26 +95,25 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    justify-content: top;
+    justify-content: space-around;
     align-items: center;
 }
 
 #date {
     align-items: top;
     text-decoration: none;
-    font-size: 150%;
-    font-weight: 500;
+    font-size: x-large;
 }
 
 #time {
     justify-content: center;
     text-decoration: none;
-    font-size: 200%;
-    font-weight: 800;
+    font-size: xx-large;
 }
 
 .weather-container {
     font-family: "Rimouski";
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -113,6 +150,77 @@
     align-items: center;
     justify-content: center;
     font-size: xx-large;
+}
+
+.forecast-container {
+    font-family: "Rimouski";
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.forecast-0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    width: 100%;
+    height: 100%;
+}
+
+.forecast-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    width: 100%;
+    height: 100%;
+}
+
+.forecast-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    width: 100%;
+    height: 100%;
+}
+
+#day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#min-temperature-value-forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+
+#max-temperature-value-forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+
+#wiconbox-forecast {
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+}
+
+#temperature-description-forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
 }
 
 .weather {

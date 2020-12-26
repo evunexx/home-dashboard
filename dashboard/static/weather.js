@@ -15,7 +15,8 @@ function weather() {
 
             var iconurl = "static/icons/" + iconcode + ".png";
             $('#wicon').attr('src', iconurl);
-            $(".temperature-value").html(temp + " C");
+            $(".temperature-value").html(temp + " C°");
+            $('.temperature-description').html(desc)
         }
     });
 
@@ -24,5 +25,5 @@ function weather() {
 
 $(document).ready(function () {
     weather();
-    setInterval(weather, 500);
+    setInterval(weather, 50000);
 })

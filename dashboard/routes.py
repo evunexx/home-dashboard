@@ -3,6 +3,7 @@ from flask import Flask, redirect, url_for, request, render_template, jsonify
 from flask.logging import create_logger
 from dashboard import app
 import datetime
+from datetime import timedelta
 from csv_ical import Convert
 import csv
 import re
@@ -135,8 +136,8 @@ def forecast():
 
     response = requests.get(url)
     data = response.json()
-
     summary = []
+    now = datetime.datetime.now()
 
     day1 = {}
     day2 = {}
@@ -147,7 +148,9 @@ def forecast():
     summary.append(day3)
 
     for iteration, days in enumerate(summary):
-        days["temp"] = str(int(data["daily"][iteration + 1]["temp"]["day"]))
+        days["dayname"] = day_of_week(now + timedelta(days=iteration + 1))
+        days["mintemp"] = str(int(data["daily"][iteration + 1]["temp"]["min"]))
+        days["maxtemp"] = str(int(data["daily"][iteration + 1]["temp"]["max"]))
         days["weather"] = str(data["daily"][iteration + 1]["weather"][0]["description"])
         days["icon"] = str(data["daily"][iteration + 1]["weather"][0]["icon"])
 
@@ -259,3 +262,17 @@ def create_connection(db_file):
         print(e)
 
     return conn
+
+
+def day_of_week(date):
+    weekdays = [
+        "Montag",
+        "Dienstag",
+        "Mittwoch",
+        "Donnerstag",
+        "Freitag",
+        "Samstag",
+        "Sonntag",
+    ]
+    number_of_day = date.weekday()
+    return weekdays[number_of_day]
