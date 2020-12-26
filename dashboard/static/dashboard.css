@@ -10,18 +10,17 @@
 .root {
     height: 100vh;
     width: 100%;
-    /*background-image: linear-gradient(+35deg, #1e263b 30%, #272a3a 100%);*/
-    background-color: #272a3a;
+    background-image: linear-gradient(+35deg, #0e0f11 40%, #1c2329 100%);
     display: grid;
     grid-template-columns: 20% 30% 50%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-template-areas: "sunset-sunrise header weather weather" "foo foo weather weather" "temp temp weather weather" "light light forecast forecast" "spotify spotify forecast forecast";
+    grid-template-areas: "sunset-sunrise header weather weather" "foo foo weather weather" "temp temp forecast forecast" "light light forecast forecast" "spotify spotify forecast forecast";
     font-family: 'Montserrat', sans-serif;
 }
 
 .header {
     grid-area: header;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -31,7 +30,7 @@
 
 .sunset-sunrise {
     grid-area: sunset-sunrise;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -197,14 +196,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: medium;
+    font-size: x-large;
 }
 
 #max-temperature-value-forecast {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: medium;
+    font-size: x-large;
 }
 
 #wiconbox-forecast {
@@ -217,7 +216,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: medium;
+    font-size: x-large;
+    text-align: center;
 }
 
 .foo-container {
@@ -233,7 +233,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    color: blue;
+    color: fuchsia;
 }
 
 .foo-green {
@@ -257,7 +257,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    color: yellow;
+    color: yellow
 }
 
 #foo-date {
@@ -267,7 +267,7 @@
 
 .weather {
     grid-area: weather;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -277,7 +277,7 @@
 
 .forecast {
     grid-area: forecast;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -288,7 +288,7 @@
 
 .foo {
     grid-area: foo;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -297,7 +297,7 @@
 
 .temp {
     grid-area: temp;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -306,7 +306,7 @@
 
 .light {
     grid-area: light;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -315,7 +315,7 @@
 
 .spotify {
     grid-area: spotify;
-    background-color: #1b1e2d;
+    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;

@@ -161,6 +161,7 @@ def current_temperature():
     """
     now = datetime.datetime.now()
     current_hour = now.hour
+    current_day = now.day
 
     summary = {}
 
@@ -174,8 +175,11 @@ def current_temperature():
           hour = %d
         AND
           sensor_id = 1
+        AND
+          day = %d
         """ % (
-        current_hour
+        current_hour,
+        current_day,
     )
 
     inside_sql = """
@@ -187,8 +191,11 @@ def current_temperature():
           hour = %d
         AND
           sensor_id = 2
+        AND
+          day = %d
         """ % (
-        current_hour
+        current_hour,
+        current_day,
     )
 
     conn = create_connection(database)
