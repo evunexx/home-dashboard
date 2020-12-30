@@ -65,7 +65,7 @@ def bin():
     grey = []
 
     for row in csv_reader:
-        if re.search("Restabfall", row[0]):
+        if re.search("Graue Tonne roter Deckel", row[0]):
             grey.append(row[1])
 
         if re.search("Biotonne", row[0]):
@@ -208,12 +208,49 @@ def current_temperature():
         inside_raw = cursor.fetchall()
         cursor.close()
 
-    summary["outside"] = outside_raw[0][0]
-    summary["inside"] = inside_raw[0][0]
+    summary["outside"] = outside_raw[0][0] if outside_raw else "N/A"
+    summary["inside"] = inside_raw[0][0] if inside_raw else "N/A"
 
     summary_json = jsonify(summary)
 
     return summary_json
+
+
+@app.route("/data/temperature/graph")
+def graph_temperature():
+    now = datetime.datetime.now()
+    current_hour = now.hour
+    current_day = now.day
+
+    database = "db.db"
+    sql = """
+        SELECT 
+          temperature,
+          hour
+        FROM
+          entrys
+        WHERE
+          day = %d
+        """ % (
+        current_day
+    )
+
+    conn = create_connection(database)
+    with conn:
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        raw = cursor.fetchall()
+        cursor.close()
+
+        list_j = []
+
+    # summary_json = jsonify(dict_j)
+
+    for entrys in raw:
+        temp = {"temperature": entrys[0], "hour": entrys[1]}
+        list_j.append(temp)
+
+    return jsonify(list_j)
 
 
 def convert_ics_to_csv(ics_data):
@@ -255,7 +292,7 @@ def next_closest_date(list):
     if next_closest_date_raw:
         month = str(next_closest_date_raw.month)
         day = str(next_closest_date_raw.day)
-        next_closest_date = day + "." + month
+        next_closest_date = day + "/" + month
         return next_closest_date
 
     return next_closest_date_raw
@@ -272,14 +309,6 @@ def create_connection(db_file):
 
 
 def day_of_week(date):
-    weekdays = [
-        "Montag",
-        "Dienstag",
-        "Mittwoch",
-        "Donnerstag",
-        "Freitag",
-        "Samstag",
-        "Sonntag",
-    ]
+    weekdays = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
     number_of_day = date.weekday()
     return weekdays[number_of_day]

@@ -7,17 +7,14 @@ function sunrisesunset() {
         type: 'GET',
         url: '/data/sunrise',
         success: function (data) {
-            console.log('success', data);
             var result = data.results;
-            console.log('success', result);
             sunrise = result['sunrise'];
-            console.log('success', sunrise);
             sunset = result['sunset'];
             // Create new Objects with dates from get-request
             var sunrise_date = new Date(sunrise);
             var sunset_date = new Date(sunset);
             console.log('info', sunrise_date);
-
+            console.log('info', sunset_date);
             // Maybe format time here for winter and summer time
             var sunrise_hour_raw = sunrise_date.getHours();
             var sunrise_minutes_raw = sunrise_date.getMinutes();

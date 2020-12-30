@@ -25,5 +25,5 @@ function weather() {
 
 $(document).ready(function () {
     weather();
-    setInterval(weather, 50000);
+    setInterval(weather, 900000);
 })

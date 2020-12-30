@@ -1,16 +1,11 @@
 function weather_forecast() {
 
-    //const iconElement = $("#date");
-    //const tempElement = $("#date");
-    //const descElement = $("#date");
-
     $.ajax({
         dataType: "json",
         type: 'GET',
         url: '/data/weather/forecast',
         success: function (data) {
             var iconcode = data[0].icon;
-            console.log('success', iconcode);
             $.each(data, function (index, value) {
 
                 var sindex = String(index);
@@ -35,5 +30,5 @@ function weather_forecast() {
 
 $(document).ready(function () {
     weather_forecast();
-    setInterval(weather_forecast, 5000);
+    setInterval(weather_forecast, 900000);
 })

@@ -120,28 +120,32 @@
             20.12
           </div>
         </div>
-        <!--<details>
-            <summary>
-          </summary>
-            <p></p>
-          </details>-->
       </div>
     </div>
     <div class="temp">
       <div class="temp-container">
-        <details>
-          <summary></summary>
-          <p></p>
-        </details>
-      </div>
-    </div>
-    <div class="light">
-      <div class="light-container">
-        <details>
-          <summary></summary>
-          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
-            award-winning fireworks and seasonal special events.</p>
-        </details>
+        <div class="temp-el-inside">
+          <div class="headline">
+            <div id="text">Innen</div>
+          </div>
+          <div class="temperature">
+            <div id="icon">
+              <i class="fas fa-thermometer-three-quarters fa-4x"></i>
+            </div>
+            <div id="value">20 C°</div>
+          </div>
+        </div>
+        <div class="temp-el-outside">
+          <div class="headline">
+            <div id="text">Außen</div>
+          </div>
+          <div class="temperature">
+            <div id="icon">
+              <i class="fas fa-thermometer-three-quarters fa-4x"></i>
+            </div>
+            <div id="value">5 C°</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="spotify">
@@ -159,6 +163,9 @@
   <script src="{{ url_for('static', filename = 'weather.js') }}"></script>
   <script src="{{ url_for('static', filename = 'weather_forecast.js') }}"></script>
   <script src="{{ url_for('static', filename = 'bin.js') }}"></script>
+  <script src="{{ url_for('static', filename = 'temperature.js') }}"></script>
+  <script src="{{ url_for('static', filename = 'temperature_graph.js') }}"></script>
+
 </body>
 
 </html>

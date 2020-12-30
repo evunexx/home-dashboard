@@ -19,5 +19,5 @@ function bin() {
 
 $(document).ready(function () {
     bin();
-    setInterval(bin, 5000);
+    setInterval(bin, 900000);
 })
