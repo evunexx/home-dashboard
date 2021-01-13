@@ -20,7 +20,7 @@
 .sunrise {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: xx-large;
     width: 100%;
     height: 100%;
@@ -29,7 +29,7 @@
 .sunset {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: xx-large;
     width: 100%;
     height: 100%;
@@ -49,7 +49,6 @@
     align-items: center;
     justify-content: center;
     font-size: x-large;
-    margin-right: 30%;
 }
 
 .header-container {
@@ -84,9 +83,17 @@
     font-family: "Rimouski";
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
     height: 100%;
 }
@@ -95,7 +102,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -107,14 +114,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .temperature-value {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 .forecast-container {
@@ -130,7 +137,7 @@
 .forecast-0 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: xx-large;
     width: 100%;
     height: 100%;
@@ -139,7 +146,7 @@
 .forecast-1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: xx-large;
     width: 100%;
     height: 100%;
@@ -148,7 +155,7 @@
 .forecast-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: xx-large;
     width: 100%;
     height: 100%;
@@ -187,6 +194,8 @@
     justify-content: center;
     font-size: x-large;
     text-align: center;
+    height: 30%;
+    width: auto;
 }
 
 .foo-container {
@@ -218,7 +227,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    color: black;
+    color: red;
 }
 
 .foo-yellow {
@@ -284,7 +293,7 @@
 
 .sunset-sunrise {
     grid-area: sunset-sunrise;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -294,7 +303,7 @@
 
 .header {
     grid-area: header;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -304,7 +313,7 @@
 
 .weather {
     grid-area: weather;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -314,7 +323,7 @@
 
 .forecast {
     grid-area: forecast;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -325,7 +334,7 @@
 
 .foo {
     grid-area: foo;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -340,7 +349,7 @@
 
 .temp-el-inside {
     grid-area: el-1;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     display: flex;
@@ -350,7 +359,7 @@
 
 .temp-el-outside {
     grid-area: el-2;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-left: 10px;
@@ -370,7 +379,7 @@
 
 .spotify {
     grid-area: spotify;
-    background-image: linear-gradient(+35deg, #191b1f 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
