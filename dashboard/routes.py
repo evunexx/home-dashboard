@@ -5,16 +5,17 @@ from dashboard import app
 import datetime
 from datetime import timedelta
 from csv_ical import Convert
+from dashboard.insert_temp_db import read_temperature_from_sensor
 import csv
 import re
 import json
 import os
 import sqlite3
+import sys
 
 # Config files this has to be excluded
 
 LOG = create_logger(app)
-
 
 @app.route("/dashboard", methods=["POST", "GET"])
 def dashboard():
@@ -69,15 +70,16 @@ def bin():
             grey.append(row[1])
 
         if re.search("Biotonne", row[0]):
+            LOG.warning(row[1])
             green.append(row[1])
 
         if re.search("Gelber Sack", row[0]):
             yellow.append(row[1])
             blue.append(row[1])
 
-    LOG.warning(green)
-    LOG.warning(grey)
-    LOG.warning(yellow)
+    #LOG.warning(green)
+    #LOG.warning(grey)
+    #LOG.warning(yellow)
     summary = {}
 
     date_green = next_closest_date(green)
@@ -154,62 +156,59 @@ def forecast():
 
 @app.route("/data/temperature/current")
 def current_temperature():
-    """
-    get current temperature
-    sensor_id = 1 (Außen)
-    sensor_id = 2 (Innen)
-    """
-    now = datetime.datetime.now()
-    current_hour = now.hour
-    current_day = now.day
-
     summary = {}
+    conn = create_connection()
+    data = read_temperature_from_sensor(conn)
 
-    database = "db.db"
-    outside_sql = """
-        SELECT 
-          temperature
-        FROM
-          entrys
-        WHERE
-          hour = %d
-        AND
-          sensor_id = 1
-        AND
-          day = %d
-        """ % (
-        current_hour,
-        current_day,
-    )
+    if data:
+            
+        """
+        get current temperature
+        sensor_id = 1 (Außen)
+        sensor_id = 2 (Innen)
+        """
 
-    inside_sql = """
-        SELECT 
-          temperature
-        FROM
-          entrys
-        WHERE
-          hour = %d
-        AND
-          sensor_id = 2
-        AND
-          day = %d
-        """ % (
-        current_hour,
-        current_day,
-    )
+        database = "db.db"
+        outside_sql = """
+            SELECT 
+            temperature,
+            abs(strftime('%s',(SELECT datetime('now','localtime'))) - strftime('%s', modtime)) as 'Difference'
+            FROM
+            entrys
+            WHERE
+            sensor_id = 1
+            ORDER BY abs(strftime('%s',(SELECT datetime('now','localtime'))) - strftime('%s', modtime))
+            LIMIT 1
+            """
 
-    conn = create_connection(database)
-    with conn:
-        cursor = conn.cursor()
-        count = cursor.execute(outside_sql)
-        outside_raw = cursor.fetchall()
+        inside_sql =  """
+            SELECT 
+            temperature,
+            abs(strftime('%s',(SELECT datetime('now','localtime'))) - strftime('%s', modtime)) as 'Difference'
+            FROM
+            entrys
+            WHERE
+            sensor_id = 2
+            ORDER BY abs(strftime('%s',(SELECT datetime('now','localtime'))) - strftime('%s', modtime))
+            LIMIT 1
+            """
 
-        cursor.execute(inside_sql)
-        inside_raw = cursor.fetchall()
-        cursor.close()
+        
+        with conn:
+            cursor = conn.cursor()
+            count = cursor.execute(outside_sql)
+            outside_raw = cursor.fetchall()
 
-    summary["outside"] = outside_raw[0][0] if outside_raw else "N/A"
-    summary["inside"] = inside_raw[0][0] if inside_raw else "N/A"
+            cursor.execute(inside_sql)
+            inside_raw = cursor.fetchall()
+            cursor.close()
+
+        summary["outside"] = outside_raw[0][0]
+        summary["inside"] = inside_raw[0][0]
+
+    else:
+        summary["outside"] = "N/A"
+        summary["inside"]  = "N/A"
 
     summary_json = jsonify(summary)
 
@@ -235,7 +234,7 @@ def graph_temperature():
         current_day
     )
 
-    conn = create_connection(database)
+    conn = create_connection()
     with conn:
         cursor = conn.cursor()
         cursor.execute(sql)
@@ -298,13 +297,16 @@ def next_closest_date(list):
     return next_closest_date_raw
 
 
-def create_connection(db_file):
+def create_connection():
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DB_PATH = os.path.join(BASE_DIR, "db.db")
     conn = None
+
     try:
-        conn = sqlite3.connect(db_file)
+        conn = sqlite3.connect(DB_PATH)
     except sqlite3.Error as e:
         print(e)
-
+    
     return conn
 
 

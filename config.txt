@@ -1,0 +1,9 @@
+
+convert.py has to be adjusted as following
+row = [
+                event.get('SUMMARY'),
+                event.get('DTSTART').dt,
+                event.get('DTEND'),
+                event.get('DESCRIPTION'),
+                event.get('LOCATION'),
+            ]
