@@ -7,8 +7,8 @@ function temperature() {
             var inside = data.inside;
             var outside = data.outside;
 
-            $(".temp-el-inside .temperature #value").html(inside);
-            $(".temp-el-outside .temperature #value").html(outside);
+            $(".temp-el-inside .temperature #value").html(inside + ' C°');
+            $(".temp-el-outside .temperature #value").html(outside + ' C°');
 
         }
     });
@@ -16,5 +16,5 @@ function temperature() {
 
 $(document).ready(function () {
     temperature();
-    setInterval(temperature, 900000);
+    setInterval(temperature, 90000);
 })

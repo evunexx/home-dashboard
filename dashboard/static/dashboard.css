@@ -283,7 +283,7 @@
 .root {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(+35deg, #0e0f11 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     display: grid;
     grid-template-columns: 20% 30% 50%;
     grid-template-rows: 20% 20% 10% 20% 30%;
@@ -293,7 +293,7 @@
 
 .sunset-sunrise {
     grid-area: sunset-sunrise;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -303,7 +303,7 @@
 
 .header {
     grid-area: header;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -313,7 +313,7 @@
 
 .weather {
     grid-area: weather;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -323,7 +323,7 @@
 
 .forecast {
     grid-area: forecast;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -334,7 +334,7 @@
 
 .foo {
     grid-area: foo;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;
@@ -349,7 +349,7 @@
 
 .temp-el-inside {
     grid-area: el-1;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     display: flex;
@@ -359,7 +359,7 @@
 
 .temp-el-outside {
     grid-area: el-2;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-left: 10px;
@@ -379,7 +379,7 @@
 
 .spotify {
     grid-area: spotify;
-    background-image: linear-gradient(+35deg, #31343a 40%, #1c2329 100%);
+    background-image: linear-gradient(+35deg, #5b5a63 40%, #1c2329 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 10px;

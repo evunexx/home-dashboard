@@ -8,780 +8,780 @@ BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:dd4477bd6466f3af0a2abb7f06261e1a
+UID:a9c4c48732a235587195337e3e5e0e64
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200114
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 28.01.2020
+DTSTART;VALUE=DATE:20210112
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 26.01.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:c8690d335b213d88fc25ec190033c035
+UID:3c9530bfc683f77fe9ec5435379c7456
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200128
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 11.02.2020
+DTSTART;VALUE=DATE:20210126
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 09.02.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:f77e2881c04d75a3a5d20d3b677ccffd
+UID:e5fd32bd0f0e469dc081506c2c57e375
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200211
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 25.02.2020
+DTSTART;VALUE=DATE:20210209
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 23.02.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:1a9d1d79cf9c21d4c2fe22ae7d3e7cbb
+UID:05c89de8a3bd5489ac8db9a11e9bc2bd
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200225
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 10.03.2020
+DTSTART;VALUE=DATE:20210223
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 09.03.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:34ff35127957214bf6ee15f5dd59f0c1
+UID:9113bf86570de162cf283b9ca0fb9cd3
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200310
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 24.03.2020
+DTSTART;VALUE=DATE:20210309
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 23.03.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:e088df7e62b53e683389e4fa5affe940
+UID:9451739db4b52e5545eb9c2d94fa762e
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200324
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 07.04.2020
+DTSTART;VALUE=DATE:20210323
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 07.04.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:534394bfc7b122a9d04f5da1408da8ea
+UID:ffddc20efc26a6bace411e4dac167751
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200407
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 21.04.2020
+DTSTART;VALUE=DATE:20210407
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nBemerkung: Achtung! Späterer Termin!\nNächster Abholtermin ist am: 20.04.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:14852413ba61ed32ff777dcf97a21a13
+UID:9424cc7155188be4f69a2e7956b61ccc
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200421
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 05.05.2020
+DTSTART;VALUE=DATE:20210420
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 04.05.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:88fa99105194a113bc634c03f4a88c34
+UID:8c7d73a76cbbac0066adba784af9a2fb
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200505
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 19.05.2020
+DTSTART;VALUE=DATE:20210504
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 18.05.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:a45aa79f6c2798fea294669ab4c11844
+UID:0ef86c8f8d3f2b010eb5a5d7b63575af
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200519
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 03.06.2020
+DTSTART;VALUE=DATE:20210518
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 01.06.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:e1c2ed7af0d319b9c6fe5a2fced0296a
+UID:918ded434e77102853d179bf5d13b24f
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200603
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nBemerkung: Achtung ! SpätererTermin\nNächster Abholtermin ist am: 16.06.2020
+DTSTART;VALUE=DATE:20210601
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 15.06.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:09d97b7d1dd4d16a08521fee1b937f3a
+UID:79fad9b24915c6524a3a7a1e9b104f98
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200616
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 30.06.2020
+DTSTART;VALUE=DATE:20210615
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 29.06.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:3e87d3d3414783137c5048df6e9ca5e0
+UID:653a91787a25c12f85df029582571e0f
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200630
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 14.07.2020
+DTSTART;VALUE=DATE:20210629
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 13.07.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:c10c3dda924ddf9c7b132003d0d669d4
+UID:227a790ebf0e49afed9111693fd3fa16
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200714
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 28.07.2020
+DTSTART;VALUE=DATE:20210713
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 27.07.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:eb93e1126537d5b2dee32d7a266ecf9c
+UID:59858db4fde46c7ee30df4624cc32a3e
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200728
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 11.08.2020
+DTSTART;VALUE=DATE:20210727
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 10.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:e4f4d1e7d0206dc8021413bdda42a0c0
+UID:e486500efa69d31f33cad24d42a4530f
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200811
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 25.08.2020
+DTSTART;VALUE=DATE:20210810
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 24.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:94a5a1cced84c16697fff6bc745ac7eb
+UID:17dadce92e740ef4a7929f7d85cfa64c
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200825
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 08.09.2020
+DTSTART;VALUE=DATE:20210824
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 07.09.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:249eca74f9121d530da563c3322cac77
+UID:5777403e80ce55ea3f3efe7a24fbd022
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200908
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 22.09.2020
+DTSTART;VALUE=DATE:20210907
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 21.09.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:ad5875cf308dc6137f1b7d04d0816503
+UID:f4061172af5153daffbd9c10486f0980
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200922
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 06.10.2020
+DTSTART;VALUE=DATE:20210921
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 05.10.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:a5d9b02600df09e21dda3a817635fbf0
+UID:b5e1b50ea936ddf8298d82fcdcbc7c30
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201006
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 20.10.2020
+DTSTART;VALUE=DATE:20211005
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 19.10.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:1866f34b2f98a9dd879ee5e8919b691a
+UID:678a837c9702e1a95eae64425fe1bb31
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201020
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 03.11.2020
+DTSTART;VALUE=DATE:20211019
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 03.11.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:e1b9e12ed89f1fdd9f2cf83cf95999e3
+UID:6a5cfa95011858928be92365f68679be
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201103
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 17.11.2020
+DTSTART;VALUE=DATE:20211103
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nBemerkung: Achtung! Späterer Termin!\nNächster Abholtermin ist am: 16.11.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:5b08f13ef0d8d5e658cae9695a77cfc6
+UID:9213cabb5045776abfba54a33cd5d533
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201117
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 01.12.2020
+DTSTART;VALUE=DATE:20211116
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 30.11.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:acf3f484c56729b665310f58c14bcb6a
+UID:4eba3fee6bcce3ba1f3c421d54b1f269
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201201
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 15.12.2020
+DTSTART;VALUE=DATE:20211130
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 14.12.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:57d6b9ffd9a85fa13a9097b999b2e8d9
+UID:689f726cd51422aa453f4026d33ce7d0
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201215
-DTSTAMP:20191217T000000Z
-DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 29.12.2020
+DTSTART;VALUE=DATE:20211214
+DTSTAMP:20201028T000000Z
+DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 28.12.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Biotonne (Grüne Tonne) 2 wöchentlich: Herford
-UID:af6fa6e599efb05e3e49e58fae0bccb8
+UID:e99bc6e11614bf1cc065a2db3c7b0c12
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201229
-DTSTAMP:20191217T000000Z
+DTSTART;VALUE=DATE:20211228
+DTSTAMP:20201028T000000Z
 DESCRIPTION:HF Biotonne (Grüne Tonne) 2 wöchentlich - Mirabellenweg\n \n
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:c2d564a5ecc231c7e9ba5fe1fb42b805
+UID:dc54f72ee340c084c56c0c1e8e3743f7
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200121
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 18.02.2020
+DTSTART;VALUE=DATE:20210119
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 16.02.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:5b0b9e5d91875a672112a7e2b761bf48
+UID:197637321520bfc6b6ab455dbffb8c80
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200218
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 17.03.2020
+DTSTART;VALUE=DATE:20210216
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 16.03.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:44dd893b12abc6ca063500e9557c7e7a
+UID:4c35eadcbddfda3826f44bbca7f6db00
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200317
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 15.04.2020
+DTSTART;VALUE=DATE:20210316
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 13.04.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:a02f8448b7a02ed75c51eb38dbe271b9
+UID:bb769b6603a603217d929dd1f2729183
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200415
-DTSTAMP:20191128T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nBemerkung: Achtung ! späterer Termin\nNächster Abholtermin ist am: 12.05.2020
+DTSTART;VALUE=DATE:20210413
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 11.05.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:f811a7037d1c82a746a32a8a009d1104
+UID:df1ab449c70cec5fe7055c476ab6590c
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200512
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 09.06.2020
+DTSTART;VALUE=DATE:20210511
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 08.06.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:9ce2b91f877c6335d1683e8531f98c8c
+UID:b272509271970023492576e7808d83d1
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200609
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 07.07.2020
+DTSTART;VALUE=DATE:20210608
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 06.07.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:85544fc462a74bb6506f8853bc8940a4
+UID:f76b40d2469c4391db928a64317e3ffe
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200707
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 04.08.2020
+DTSTART;VALUE=DATE:20210706
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 03.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:cf7edd3055235faf6bbd315f3881bef7
+UID:fd954f05ec9b7a08c2e04acf34afc9cc
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200804
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 01.09.2020
+DTSTART;VALUE=DATE:20210803
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 31.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:a8eb15aedc529eab94902ec7c9637457
+UID:83a8384e01c5df6d51609c6876513654
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200901
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 29.09.2020
+DTSTART;VALUE=DATE:20210831
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 28.09.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:53081572b8a73249bf9ee402cbc3bc73
+UID:849c1ec4eb60b0e2ad0854a83e3a0940
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200929
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 27.10.2020
+DTSTART;VALUE=DATE:20210928
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 26.10.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:4395cd0bfb1bbe8c8b54a7e99c01fd86
+UID:f3684a9157cf0a2331ed629c54a0a094
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201027
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 24.11.2020
+DTSTART;VALUE=DATE:20211026
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 23.11.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:f755474984b58ef5e5936c50f2a1469a
+UID:00ade1ae429234eabdacfcce2acc3057
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201124
-DTSTAMP:20191022T000000Z
-DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 22.12.2020
+DTSTART;VALUE=DATE:20211123
+DTSTAMP:20201104T000000Z
+DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 21.12.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich: Herford
-UID:5f324e0dfc8dde27fa512fba71a9562a
+UID:fe4f3ee599a99d046ac0820150f4e041
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201222
-DTSTAMP:20191022T000000Z
+DTSTART;VALUE=DATE:20211221
+DTSTAMP:20201104T000000Z
 DESCRIPTION:HF Gelber Sack, Blaue Tonne, Altkleider, 4 wöchentlich - Mirabellenweg\n \n
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:ffb6d9b0ddd9d06b68fc7fbd3b0e3741
+UID:9cb57bbcd631b6473f574249a7b97316
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200121
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 18.02.2020
+DTSTART;VALUE=DATE:20210119
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 16.02.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:937f6c94f50c34806f402fa510daf075
+UID:1cb5f5476a14476370bce69e587e2692
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200218
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 17.03.2020
+DTSTART;VALUE=DATE:20210216
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 16.03.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:ba1eb85e99d61843470f7d2f59f79dc1
+UID:cb04414fa58fdda3f631b0df1a7235df
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200317
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 15.04.2020
+DTSTART;VALUE=DATE:20210316
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 13.04.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:ce82f16459b0da22aef211bf710693df
+UID:649ff38fef9cf5f8c94469ace06944d1
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200415
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nBemerkung: Achtung! Späterer Termin!\nNächster Abholtermin ist am: 12.05.2020
+DTSTART;VALUE=DATE:20210413
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 11.05.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:d47189cd0b13fc87f51d277054aedc41
+UID:c31e86fd8e86f8e5fb859060f964fd84
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200512
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 09.06.2020
+DTSTART;VALUE=DATE:20210511
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 08.06.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:5aa8186e565530bda6623cf471d86e09
+UID:d795478cafffd96f37b5b655578cbb24
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200609
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 07.07.2020
+DTSTART;VALUE=DATE:20210608
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 06.07.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:ce75f2aed89d463c70c37730bf07684b
+UID:d7fd13284b076f99e264a7b175f487f2
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200707
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 04.08.2020
+DTSTART;VALUE=DATE:20210706
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 03.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:a2038c32124d12aaa0d43162c76905ee
+UID:3d1b3c89009e2b9c3208cd6dc0677b94
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200804
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 01.09.2020
+DTSTART;VALUE=DATE:20210803
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 31.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:5b55bf947633419bd79c9a2c798c9d91
+UID:67e66c731c40c303a6e331fc0161491a
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200901
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 29.09.2020
+DTSTART;VALUE=DATE:20210831
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 28.09.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:86b6bc469ad978b1247f197fa071bd1a
+UID:a6fdd9cc789071007a1311fa1a8a561d
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200929
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 27.10.2020
+DTSTART;VALUE=DATE:20210928
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 26.10.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:514047b41b1b37d52d258b5c208ad20e
+UID:d041bc0f24b4573d2cff3313737e0660
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201027
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 24.11.2020
+DTSTART;VALUE=DATE:20211026
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 23.11.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:67b0a72ea42db44e4b8f8d3be47f4811
+UID:0fea79323ed9d1779e5f24550164772c
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201124
-DTSTAMP:20191021T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 22.12.2020
+DTSTART;VALUE=DATE:20211123
+DTSTAMP:20201030T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \nNächster Abholtermin ist am: 21.12.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich: Herford
-UID:e969518173e5c3518059b08d5d0fa99f
+UID:3bdd815e6d3cbf23a32bf91cc9f059a1
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201222
-DTSTAMP:20191128T000000Z
+DTSTART;VALUE=DATE:20211221
+DTSTAMP:20201030T000000Z
 DESCRIPTION:HF Restabfall (Graue Tonne roter Deckel) 4 wöchtlich - Mirabellenweg\n \n
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:25e5824f1f01466efaa28ca0f0c878a3
+UID:e7879977d22cb0c856d33999238ca5ee
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200107
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 21.01.2020
+DTSTART;VALUE=DATE:20210105
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 19.01.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:daa418b38f2a8c1c2ec70a84de7bbedd
+UID:33f29faf42fa415931852def425a4852
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200121
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 04.02.2020
+DTSTART;VALUE=DATE:20210119
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 02.02.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:3468031770329c0502def7c501e8602d
+UID:59f56186cb9c25743faffe12ec9e43ed
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200204
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 18.02.2020
+DTSTART;VALUE=DATE:20210202
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 16.02.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:a062f97f3fedb39ba14a03790f97ec37
+UID:605ddef7e32c948f72823a7561d67d0f
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200218
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 03.03.2020
+DTSTART;VALUE=DATE:20210216
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 02.03.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:53d5cbf29a65126b156b0a5bf6d8a8a1
+UID:b6a5e3a3cc8d50439ddca8c7b13dff10
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200303
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 17.03.2020
+DTSTART;VALUE=DATE:20210302
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 16.03.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:f5ac276d309c9d7af8bb717211bb1a70
+UID:1b4c622128c4a1140e6c2a35088be0de
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200317
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 31.03.2020
+DTSTART;VALUE=DATE:20210316
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 30.03.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:9770764b579a6e68f15f491e35bf30c5
+UID:3d6f3d963b4c6eb0fec03bb4e76998d2
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200331
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 15.04.2020
+DTSTART;VALUE=DATE:20210330
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 13.04.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:510606ca93040a771a446de1d5491226
+UID:55b7efad3d8f7e1167c358af6533753c
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200415
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nBemerkung: Achtung ! späterer Termin\nNächster Abholtermin ist am: 28.04.2020
+DTSTART;VALUE=DATE:20210413
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 27.04.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:f3ebdc3d8a320402983a747c847abdb7
+UID:5c1990bd20858ed764182cfdfb4d4ccb
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200428
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 12.05.2020
+DTSTART;VALUE=DATE:20210427
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 11.05.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:b8b78dc5231d7e117f85b95db834c8aa
+UID:618c91a273a79241fd75742b93abd2e3
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200512
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 26.05.2020
+DTSTART;VALUE=DATE:20210511
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 26.05.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:6f37d804ab83309b0cf53c91b66d916a
+UID:fcbbe7a26fc8216944cd2388ff42756a
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200526
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 09.06.2020
+DTSTART;VALUE=DATE:20210526
+DTSTAMP:20201117T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nBemerkung: Achtung! Späterer Termin!\nNächster Abholtermin ist am: 08.06.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:db4ac08df119d4226d0a930097f98337
+UID:c6cdf2ff56816a1a7b9e956e7c9b96fb
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200609
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 23.06.2020
+DTSTART;VALUE=DATE:20210608
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 22.06.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:bf11eb7d5d5ff747c78f2a1e2847af2a
+UID:7646305bd81fc7f37eb781fe45c45b26
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200623
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 07.07.2020
+DTSTART;VALUE=DATE:20210622
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 06.07.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:b2033a72dc7b79ae85855dad45098bc4
+UID:3b6107498ed6f4af9d33332f48976843
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200707
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 21.07.2020
+DTSTART;VALUE=DATE:20210706
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 20.07.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:b5feb30816fb4df6a32f8b92050cca22
+UID:9a135bfb5131f0f0b125304df3616fa0
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200721
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 04.08.2020
+DTSTART;VALUE=DATE:20210720
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 03.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:b92c4195bd91bb104a73fc4525d389f2
+UID:fd658b16871c91d13147214c74b528a0
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200804
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 18.08.2020
+DTSTART;VALUE=DATE:20210803
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 17.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:236c4ac67013b9e3dd22a049ba6ef483
+UID:30efdf6369ff600d3d26ad15e5ddea3f
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200818
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 01.09.2020
+DTSTART;VALUE=DATE:20210817
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 31.08.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:68293e4659acb5b65954dd5cfae27360
+UID:7f0973224c0da52aed0729f5ad053c51
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200901
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 15.09.2020
+DTSTART;VALUE=DATE:20210831
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 14.09.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:cb5b9d42516bdf8c5ad595a99e459c7a
+UID:d9f7737579d19fd73a6bd7618f41be3d
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200915
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 29.09.2020
+DTSTART;VALUE=DATE:20210914
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 28.09.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:b7ced932cb3610973bb477e5871b9e40
+UID:b2e5ae265f9ff086eba252a30c17be31
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20200929
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 13.10.2020
+DTSTART;VALUE=DATE:20210928
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 12.10.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:55f0b3fb3f898f398b11ca4cacade9d0
+UID:288c305d36b8962df61203d92fe9ec36
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201013
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 27.10.2020
+DTSTART;VALUE=DATE:20211012
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 26.10.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:f37b7d5ae6d3a69e31a804c81f076c28
+UID:c09abe1cf537d0fdbd9e2400b9572e43
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201027
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 10.11.2020
+DTSTART;VALUE=DATE:20211026
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 09.11.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:c57a8c930897ce600e0d64887a2533d9
+UID:0d05d3c038c72fed06c12fd8fa6b7a20
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201110
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 24.11.2020
+DTSTART;VALUE=DATE:20211109
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 23.11.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:279af8c944317d4fd15921f9d475c07f
+UID:acc7040e24349989058d7ea4a0b00281
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201124
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 08.12.2020
+DTSTART;VALUE=DATE:20211123
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 07.12.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:02c265cb3120844e67f8d4ec6aabb2ee
+UID:89566f4f15248ae952a3832b3063e80b
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201208
-DTSTAMP:20191216T000000Z
-DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 22.12.2020
+DTSTART;VALUE=DATE:20211207
+DTSTAMP:20201022T000000Z
+DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \nNächster Abholtermin ist am: 21.12.2021
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES: Abfallkalender
 LOCATION: Herford - Mirabellenweg
 SUMMARY:HF Restabfall (Graue Tonne) 2 wöchentlich: Herford
-UID:3ccc27cf01ab7b5a23f8de0abf7e7d34
+UID:4215289c80f094d3c4ddf09bfbffb1c0
 CLASS:PUBLIC
-DTSTART;VALUE=DATE:20201222
-DTSTAMP:20191216T000000Z
+DTSTART;VALUE=DATE:20211221
+DTSTAMP:20201022T000000Z
 DESCRIPTION:HF Restabfall (Graue Tonne) 2 wöchentlich - Mirabellenweg\n \n
 END:VEVENT
 END:VCALENDAR

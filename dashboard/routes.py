@@ -171,7 +171,7 @@ def current_temperature():
         database = "db.db"
         outside_sql = """
             SELECT 
-            temperature,
+            temperature_numeric,
             abs(strftime('%s',(SELECT datetime('now','localtime'))) - strftime('%s', modtime)) as 'Difference'
             FROM
             entrys
@@ -183,7 +183,7 @@ def current_temperature():
 
         inside_sql =  """
             SELECT 
-            temperature,
+            temperature_numeric,
             abs(strftime('%s',(SELECT datetime('now','localtime'))) - strftime('%s', modtime)) as 'Difference'
             FROM
             entrys
